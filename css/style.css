@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/image-lac-d-annecy.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: powderblues;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.Reponse {
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+}
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Verdana;
+    color: red;
+}
+
+h3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Verdana;
+    color: red;
+}
+
+a {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Verdana;
+    color: rgb(62, 15, 231);
+}
+
+#gradient {
+    font-size: 30px;
+    background: linear-gradient(130deg, #1ecfd5, #116de1);
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+    50% {
+        background-position: 91% 100%
+    }
+    100% {
+        background-position: 10% 0%
+    }
+}
+
+@-moz-keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+    50% {
+        background-position: 91% 100%
+    }
+    100% {
+        background-position: 10% 0%
+    }
+}
+
+@keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+    50% {
+        background-position: 91% 100%
+    }
+    100% {
+        background-position: 10% 0%
+    }
+}
