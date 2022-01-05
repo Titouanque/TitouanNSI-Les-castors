@@ -43,13 +43,12 @@ function verifierQCM() {
     if (score == 5) {
         alert(`Exelent votre score est ${score}/5`)
     }
-    
     if (score == 3) {
         alert(`Bien joué votre score est ${score}/5`)
     }
-	if (score == 4) {
+    if (score == 4) {
         alert(`Bien joué votre score est ${score}/5`)
-	}
+    }
     if (score < 3) {
         alert(`Votre score est ${score}/5 n'hésitez pas à réessayer le QCM`)
     }
